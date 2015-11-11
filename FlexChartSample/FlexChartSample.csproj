@@ -61,13 +61,13 @@
       <HintPath>packages\Xamarin.Android.Support.v4.22.2.1.0\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Android.ChartCore">
-      <HintPath>packages\Xuni.Android.ChartCore.1.5.20152.50\lib\MonoAndroid10\Xuni.Android.ChartCore.dll</HintPath>
+      <HintPath>packages\Xuni.Android.ChartCore.1.5.20153.60\lib\MonoAndroid10\Xuni.Android.ChartCore.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Android.Core">
-      <HintPath>packages\Xuni.Android.Core.1.5.20152.50\lib\MonoAndroid10\Xuni.Android.Core.dll</HintPath>
+      <HintPath>packages\Xuni.Android.Core.1.5.20153.60\lib\MonoAndroid10\Xuni.Android.Core.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Android.FlexChart">
-      <HintPath>packages\Xuni.Android.FlexChart.1.5.20152.50\lib\MonoAndroid10\Xuni.Android.FlexChart.dll</HintPath>
+      <HintPath>packages\Xuni.Android.FlexChart.1.5.20153.60\lib\MonoAndroid10\Xuni.Android.FlexChart.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
