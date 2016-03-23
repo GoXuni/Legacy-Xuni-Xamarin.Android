@@ -89,7 +89,7 @@ namespace FlexPieSample
         }
         public override void Render(PieDataPoint point)
         {
-            double percent = double.Parse(point.Percent.ToString());
+            double percent = double.Parse(point.Percentage.ToString());
             txtLabel.SetText(String.Format("{0}: {1:p0}", point.Name, percent), TextView.BufferType.Normal);
             RequestLayout();
         }
