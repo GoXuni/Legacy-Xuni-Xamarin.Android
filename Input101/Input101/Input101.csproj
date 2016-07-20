@@ -9,8 +9,8 @@
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CalendarSample</RootNamespace>
-    <AssemblyName>CalendarSample</AssemblyName>
+    <RootNamespace>Input101</RootNamespace>
+    <AssemblyName>Input101</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidApplication>true</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
@@ -53,18 +53,46 @@
     <Reference Include="Xuni.Android.Core">
       <HintPath>..\packages\Xuni.Android.Core.2.3.20162.111\lib\MonoAndroid10\Xuni.Android.Core.dll</HintPath>
     </Reference>
+    <Reference Include="Xuni.Android.Input">
+      <HintPath>..\packages\Xuni.Android.Input.2.3.20162.111\lib\MonoAndroid10\Xuni.Android.Input.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DropDownItem.cs" />
+    <Compile Include="SampleListAdapter.cs" />
     <Compile Include="License.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SampleModel.cs" />
+    <Compile Include="Sample\ComboBoxActivity.cs" />
+    <Compile Include="Sample\DropDownActivity.cs" />
+    <Compile Include="Sample\MaskActivity.cs" />
+    <Compile Include="Sample\AutoCompleteActivity.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="GettingStarted.Xamarin" />
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
+    <AndroidResource Include="Resources\layout\activity_custom_list.axml" />
+    <AndroidResource Include="Resources\layout\activity_autocomplete.axml" />
+    <AndroidResource Include="Resources\drawable\calendar.png" />
+    <AndroidResource Include="Resources\drawable\australia.png" />
+    <AndroidResource Include="Resources\drawable\bangladesh.png" />
+    <AndroidResource Include="Resources\drawable\brazil.png" />
+    <AndroidResource Include="Resources\drawable\canada.png" />
+    <AndroidResource Include="Resources\drawable\china.png" />
+    <AndroidResource Include="Resources\drawable\france.png" />
+    <AndroidResource Include="Resources\drawable\germany.png" />
+    <AndroidResource Include="Resources\drawable\india.png" />
+    <AndroidResource Include="Resources\drawable\japan.png" />
+    <AndroidResource Include="Resources\drawable\nepal.png" />
+    <AndroidResource Include="Resources\drawable\pakistan.png" />
+    <AndroidResource Include="Resources\drawable\srilanka.png" />
+    <AndroidResource Include="Resources\drawable\input_autocomplete.png" />
+    <AndroidResource Include="Resources\drawable\input_combobox.png" />
+    <AndroidResource Include="Resources\drawable\input_dropdown.png" />
+    <AndroidResource Include="Resources\drawable\input_mask.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
@@ -79,19 +107,12 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Cloudy.png" />
+    <AndroidResource Include="Resources\layout\custom_item.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\PartlyCloudy.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Rain.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Storm.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Sun.png" />
+    <AndroidResource Include="Resources\layout\activity_basic_mask.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

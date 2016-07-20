@@ -64,10 +64,10 @@
       <HintPath>..\packages\Xamarin.Android.Support.v4.22.2.1.0\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Android.Core">
-      <HintPath>..\packages\Xuni.Android.Core.2.1.20161.86\lib\MonoAndroid10\Xuni.Android.Core.dll</HintPath>
+      <HintPath>..\packages\Xuni.Android.Core.2.3.20162.111\lib\MonoAndroid10\Xuni.Android.Core.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Android.Gauge">
-      <HintPath>..\packages\Xuni.Android.Gauge.2.1.20161.86\lib\MonoAndroid10\Xuni.Android.Gauge.dll</HintPath>
+      <HintPath>..\packages\Xuni.Android.Gauge.2.3.20162.111\lib\MonoAndroid10\Xuni.Android.Gauge.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="Input101.Input101" android:versionCode="1" android:versionName="1.0">
+  <uses-sdk android:minSdkVersion="16" />
+  <application android:label="Input101" android:theme="@android:style/Theme.Holo.Light"></application>
+</manifest>

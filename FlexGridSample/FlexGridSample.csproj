@@ -74,10 +74,10 @@
       <HintPath>packages\Xamarin.Android.Support.v4.22.2.1.0\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Android.Core">
-      <HintPath>packages\Xuni.Android.Core.2.1.20161.86\lib\MonoAndroid10\Xuni.Android.Core.dll</HintPath>
+      <HintPath>packages\Xuni.Android.Core.2.3.20162.111\lib\MonoAndroid10\Xuni.Android.Core.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Android.FlexGrid">
-      <HintPath>packages\Xuni.Android.FlexGrid.2.1.20161.86\lib\MonoAndroid10\Xuni.Android.FlexGrid.dll</HintPath>
+      <HintPath>packages\Xuni.Android.FlexGrid.2.3.20162.111\lib\MonoAndroid10\Xuni.Android.FlexGrid.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -92,6 +92,9 @@
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
+    <AndroidResource Include="Resources\layout\CustomCell.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />

@@ -46,6 +46,7 @@ namespace FlexGridSample
                         renderEngine.SetFillColor(Color.Blue);
                     }
                 }
+                
             }
 
             base.CreateCellContent(gridPanel, renderEngine, cellRange, bounds);
